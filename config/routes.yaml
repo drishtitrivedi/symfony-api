@@ -1,0 +1,23 @@
+index:
+  path: /
+  controller: App\Controller\ContactsController::index
+
+create:
+  path: /create
+  controller: App\Controller\ContactsController::create
+
+edit:
+  path: edit/{id}
+  controller: App\Controller\ContactsController::edit
+
+remove:
+  path: remove/{id}
+  controller: App\Controller\ContactsController::remove
+
+search:
+  path: search
+  controller: App\Controller\ContactsController::search
+
+restapi:
+  path: restapi
+  controller: App\Controller\RESTApiController::restapi
